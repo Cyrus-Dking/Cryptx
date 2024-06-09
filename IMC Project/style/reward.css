@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #0F002B;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.name a{
+    color: #ff960b;
+    font-size: 30px;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.logins{
+    padding: 0px 20px;
+    display: flex;
+}
+.logins h1{
+    padding: 10px 10px;
+}
+.logins a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1px;
+    margin: 10px 20px;
+    font-weight: 700;
+}
+.logins .sign{
+    border:none;
+    background: #ff960b;
+    border-radius: 10px;
+    padding: 0px 10px;
+    height: 30px;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.logins :is(.sign){font-weight: 700; color: #000;}
+.sign:hover{
+    color: #f1f0ee;
+}
+.table2 .btc{
+    color: #9A9696;
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    background: #0F002B;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 0 10px 25px #0F002B;
+}
+
+.box:hover input{
+    width: 200px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    transition: 0.8s;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.box a .fa{
+    color: #ff960b;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.icon i{
+    font-size: 20.5px;
+    color: #ff960b;
+    padding: 10px;
+}
+
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 70px;
+}
+
+.side1 h1{
+    font-size: 80px;
+
+}
+.side1 h1 span{
+    font-size: 80px;
+    color: #ff960b;
+}
+.inp{
+    margin-top: 20px;
+}
+.side1 input{
+    width: 300px;
+    height: 45px;
+    border: 2px solid #9A9696;
+    border-radius: 8px;
+    font-weight: 200;
+    padding: 20px;
+    background: transparent;
+    color: #f1f0ee;
+}
+
+.side1 .btn{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 200;
+    background: #ff960b;
+    text-align: center;
+    color: #ff960b;
+    cursor: pointer;
+}
+.btn a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.rewards{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.rewards i{
+    color: #ff960b;
+    font-size: 20px;
+}
+
+.connect{
+    margin-top: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+    color: #9A9696;
+}
+.connect .app{
+    padding-left: 150px;
+}
+.connect i{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #ff960b;
+    border: 1px solid;
+    border-radius: 20%;
+    padding: 5px;
+}
+.table{
+    border: 2px solid #ff960b;
+    border-radius: 10px;
+    height: 18rem;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+.table .coin{
+    color: #9A9696;
+    padding-top: 30px;
+}
+.table span{
+    padding: 30px;
+}
+.table2{
+    padding-top: 20px;
+}
+.table img{
+    width: 30%;
+}
+.side2{
+    margin-bottom: 200px;
+    padding-left: 100px;
+
+}
+.news{
+    display: flex;
+    border: 2px solid #ff960b;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 8rem;
+    padding: 30px;
+}
+.pool{
+    display: flex;
+}
+.sub-content2{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 40px;
+}
+.sub-content2 header h2{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+.sub-content2 .fa-solid{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+
+.verify{
+    display: flow-root;
+    text-align: center;
+    justify-content: center;
+    background: #23055ca6;
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.verify .btn-1{
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    background: #ff960b;
+    border: none;
+    border-radius: 10px;
+}
+.btn-1 a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.sub-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 40px;
+    padding-left: 10rem;
+}
+.qr-code{
+    padding-left: 300px;
+}
+.qr-code h1{
+    font-size: 40px;
+}
+.qr img{
+    width: 40%;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+.text{
+    padding-left: 15rem;
+    font-size: 15px;
+    color: #9A9696;
+}
+.text span{
+    color: #fff;
+}
+
+.sub-content2 table{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.sub-content2 table td{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.sub-content2 table h3{
+    padding: 0px;
+    font-size: 20px;
+}
+.sub-content2 .num{
+    border: 1px solid #333232be;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.verify{
+    justify-content: center;
+}
+.verify h2{
+    text-align: center;
+    font-size: 40px;
+}
+.verify h1{
+    text-align: center;
+    font-size: 50px;
+}
+.verify span{
+    text-align: center;
+    font-size: 50px;
+    color: #ff960b;
+}
+.connect-2{
+    justify-content: space-between;
+    margin-top: 500px;
+}
+
+
+.about{
+    display: inline-block;
+    justify-content: center;
+}
+.about-us{
+    margin: 50px;
+    font-size: 20px;
+}
+.product{
+    margin: 50px;
+    font-size: 20px;
+}
+.business{
+    margin: 50px;
+    font-size: 20px;
+}
+
+/* LOGIN */
+.form-value img{
+    width: 10%;
+}
+.form-value a{
+    text-decoration: none;
+    color: #ff960b;
+    padding-left: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+#form button{
+    color: #000;
+}
+.form-value{
+    padding-bottom: 30px;
+
+}
+.bal{
+    font-size: 30px;
+}
+.balance{
+    margin-top: 40px;
+}
+.balance span{
+    margin-top: 30p;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid #ff960b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.inputbox {
+    border: 2px solid #9A9696;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.inputbox input {
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-left: 30px;
+    color: #fff;
+}
+.register{
+    margin-top: 10.5px;
+    margin-left: 80px;
+}
+.register a{
+    text-decoration: none;
+    color: #ff960b;
+    font-size: 1em;
+    font-weight: 700;
+}
+.form-value button{
+    width: 80%;
+    height: 50px;
+    background: #ff960b;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.google, .apple{
+    width: 80%;
+    height: 50px;
+    border: 2px solid #9A9696;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    color: #9A9696;
+}
+.or{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #9A9696;
+}
+.google:hover,.apple:hover{
+    background: #ff960b;
+    color: #000;
+}
+.form-value p{
+    font-size: 1em;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.form-value span{
+    text-decoration: underline;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+    color: #fff;
+    line-height: 30px;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer hr{
+    width: 100%;
+    height: 1px;
+    background: #9A9696;
+    margin-top: 20px;
+}
+
+.est{
+    font-weight: 700;
+}
+.bit{
+    margin-bottom: 20rem;
+}
+
+.sidebar {
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+    background-color: transparent;
+    padding: .4rem .8rem;
+    transition: all 0.5s ease;
+}
+
+.sidebar.active ~ .main-content {
+    left: 250px;
+    width: calc(100% - 250px);
+}
+
+.sidebar.active{
+    width: 250px;
+}
+
+.sidebar #btn {
+    position: relative;
+    color: #ff960b;
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.sidebar.active #btn {
+    left: 90%;
+}
+
+.sidebar ul li{
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 0.8rem auto;
+    line-height: 50px;
+}
+.sidebar ul li a{
+    color: #9A9696;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
+.sidebar ul li a:hover{
+    background-color: #ff960b;
+    color: #000;
+}
+
+.sidebar ul li a i{
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+
+.sidebar .nav-item{
+    opacity: 0;
+}
+.sidebar.active .nav-item{
+    opacity: 1;
+}
+
+.sidebar ul li .tooltip {
+    position: absolute;
+    top: 50%;
+    left: 125px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0.5rem 0.8rem #ff960b;
+    border-radius: 0.6rem;
+    padding: .4rem 1.2rem;
+    z-index: 20;
+    opacity: 0;
+}
+
+.sidebar ul li:hover .tooltip {
+    opacity: 1;
+}
+
+.sidebar.active ul li .tooltip{
+    display: none;
+}
+
+.user-info img{
+    width: 100px;
+}
+.user-info{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.bal-est{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.line{
+    border-left: 1px solid #9A9696;
+}
